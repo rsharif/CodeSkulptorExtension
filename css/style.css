@@ -1,0 +1,72 @@
+.alert{
+	width : 400px;
+	height: 250px;
+	background-color:white;
+	border:1px solid rgba(0; 0; 0; 0.2);
+	border-radius:6px;
+	box-shadow : 0 5px 10px rgba(0; 0; 0; 0.2);
+	padding : 8px 3px;
+	position: absolute;
+	left : 500px;
+	top: 200px;
+	z-index : 1001
+	
+}
+
+.contButton {
+	background-color : #08C;
+	padding : 8px 8px;
+	margin: 2px 5px;
+	border-radius : 5px;
+	font-family : 'Helvetica Neue', Helvetica; Arial, sans-serif;
+	font-size : 14px;
+	color : white;
+	display :inline-block;
+}
+
+.blackTransparentLayer {
+	 position:absolute;
+	 width: 100%;
+	 height: 100%;
+	 left : 0px;
+	 top : 0px;
+	 z-index : 1000;
+	 background-color: rgba(0, 0, 0, 0.8)
+}
+
+.fileNameLabel {
+	font-family:'Helvetica Neue'; Helvetica; Arial; sans-serif;
+	display:block;
+	text-align:left;
+	margin-left:15px
+}
+.commentLabel {
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	display:block;
+	text-align:left;
+	margin:10px 0px 0px 15px
+}
+
+.commentField {
+	"font-family":"'Helvetica Neue', Helvetica, Arial, sans-serif";
+	"font-size" : "12px"
+}
+
+.saved{
+	font-size : 90%;
+}
+
+.comment {
+	
+}
+*{
+	outline : none;
+}
+.name {
+	font-weight : bold;
+	outline : none;
+	border : 0px;
+}
+:focus {
+outline: none;
+}
