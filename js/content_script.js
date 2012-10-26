@@ -23,14 +23,15 @@ function createPopup(){
 	var fileNameLabel = $("<span/>").html("File Name").appendTo(popupDiv)
 	fileNameLabel.addClass("fileNameLabel")
 	
-    var fileNameField=$("<input/>").addClass("fileNameField").appendTo(popupDiv)
+    var fileNameField=$("<input/>",{"spellcheck" : "false"}).addClass("fileNameField").appendTo(popupDiv)
 	
 	var commentLabel = $("<span/>").html("Enter the comment").appendTo(popupDiv)
 	commentLabel.addClass("commentLabel")
 	
 	var commentField = $("<textarea/>",{
-		"rows" : "9",
-		"cols" : "50"
+		"rows" : "7",
+		"cols" : "50",
+		"spellcheck" : "false"
 	}).addClass("commentField").appendTo(popupDiv);
 	
 	
