@@ -59,14 +59,11 @@
 .comment {
 	
 }
-*{
-	outline : none;
-}
 .name {
 	font-weight : bold;
 	outline : none;
 	border : 0px;
 }
-:focus {
+a:focus {
 outline: none;
 }
