@@ -1,6 +1,6 @@
 {
   "name": "Skulptor Resource Manager",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Page Action to manage files on Code Skulptor",
   "permissions": ["tabs","storage"],
   "background": { "scripts": ["js/background.js"] },
@@ -19,3 +19,5 @@
    "manifest_version": 2,
    "content_security_policy": " script-src 'self'; object-src 'self' "
 }
+
+(DATEPART(hh,birthday)) AS hour

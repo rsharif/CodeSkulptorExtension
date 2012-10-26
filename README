@@ -1,3 +1,4 @@
-Code for chrome extension which helps to manage the files saved using codeskulptor which is available at http://www.codeskulptor.org/
+Code for chrome extension which helps to manage the files saved using codeskulptor [http://www.codeskulptor.org/]
+- Requires permission to chrome local storage
 
-Requires permission to chrome local storage
+Available here -> https://chrome.google.com/webstore/detail/skulptor-resource-manager/ccngaogbjkcidegenddllcdkdnnajebm
