@@ -14,7 +14,7 @@ $(document).ready(function(){
 			
 			var trash = $("<img/>",{
 				src : "img/trash.jpg"
-			}).css({"width":"16px","height":"16px","float":"right"}).appendTo(div)
+			}).addClass("trash").appendTo(div)
 			
 			function removeClosure(id,div){
 				trash.click(function(){

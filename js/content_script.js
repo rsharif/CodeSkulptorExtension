@@ -23,10 +23,7 @@ function createPopup(){
 	var fileNameLabel = $("<span/>").html("File Name").appendTo(popupDiv)
 	fileNameLabel.addClass("fileNameLabel")
 	
-    var fileNameField=$("<input/>").css({
-		"width":"365px",
-		"height":"20px"
-	}).appendTo(popupDiv)
+    var fileNameField=$("<input/>").addClass("fileNameField").appendTo(popupDiv)
 	
 	var commentLabel = $("<span/>").html("Enter the comment").appendTo(popupDiv)
 	commentLabel.addClass("commentLabel")
@@ -108,14 +105,5 @@ function showPopUp(event){
 	}
 }
 
-function generateUUID(){
-    var d = new Date().getTime();
-    var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-        var r = (d + Math.random()*16)%16 | 0;
-        d = Math.floor(d/16);
-        return (c=='x' ? r : (r&0x7|0x8)).toString(16);
-    });
-    return uuid;
-};
 
 

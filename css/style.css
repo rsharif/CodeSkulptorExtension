@@ -22,6 +22,7 @@
 	font-size : 14px;
 	color : white;
 	display :inline-block;
+	cursor : pointer;
 }
 
 .blackTransparentLayer {
@@ -40,6 +41,11 @@
 	text-align:left;
 	margin-left:15px
 }
+.fileNameField {
+	width:365px,
+	height:20px,
+	font-size" :95%
+}
 .commentLabel {
 	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	display:block;
@@ -48,8 +54,8 @@
 }
 
 .commentField {
-	"font-family":"'Helvetica Neue', Helvetica, Arial, sans-serif";
-	"font-size" : "12px"
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size : 95%	
 }
 
 .saved{
@@ -66,4 +72,11 @@
 }
 a:focus {
 outline: none;
+}
+
+.trash {
+	width:16px;
+	height:16px;
+	float:right;
+	cursor:pointer;
 }
